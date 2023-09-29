@@ -545,7 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _plantPrefabs:
   - {fileID: 1842740702562276335, guid: 96e957d6613954bd9bab76b0fe4bcbe1, type: 3}
-  - {fileID: 1842740702562276335, guid: 96e957d6613954bd9bab76b0fe4bcbe1, type: 3}
+  - {fileID: 1842740702562276335, guid: 60517c49336c3514783807660616e6f2, type: 3}
   _plantParent: {fileID: 1486572178}
   _farmMap: {fileID: 1578268022}
   _farmTile: {fileID: 11400000, guid: b22b696692ab36e468037febaa4997ce, type: 2}
