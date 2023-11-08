@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -15,12 +16,16 @@ public class CreateObjects : MonoBehaviour
 
     public void GenerateObjects()
     {
+        
         for (int i = Mathf.RoundToInt(_from.x); i < _to.x; i++)
         {
+            Debug.Log(i);
             for (int j = Mathf.RoundToInt(_from.y); j < _to.y;j++)
             {
+                
                 _tempObject = PrefabUtility.InstantiatePrefab(_objectToCreate, transform) as GameObject;
                 _tempObject.transform.position = new Vector3(i,j,_zValue);
+                
             }
         }
     }

@@ -12,6 +12,7 @@ public class Harvester : MonoBehaviour
 
     // Harvest to sell
     // Assignment 2 - Data structure to hold collected harvests
+    List<CollectedHarvest> collectedHarvests = new List<CollectedHarvest>();
 
     public static Harvester _instance;
        
@@ -31,6 +32,8 @@ public class Harvester : MonoBehaviour
         return null;
     }
 
+    
+
     // Assignment 2
     public void RemoveHarvest(CollectedHarvest harvest)
     {
@@ -38,7 +41,20 @@ public class Harvester : MonoBehaviour
     }
 
     // Assignment 2 - CollectHarvest method to collect the harvest when picked up
-    
+    public void CollectHarvest(string name, string time, int amount)
+    {
+        //add to a data structure, store it 
+        CollectedHarvest _collectedHarvest;
+        _collectedHarvest._name = name;
+        _collectedHarvest._time = time;
+        _collectedHarvest._amount = amount;
+        //add it to a list of said data structures
+        collectedHarvests.Add(_collectedHarvest);
+        //update status
+        string status = _collectedHarvest._amount.ToString() + " " + _collectedHarvest._name + " collected on " + _collectedHarvest._time;
+        Debug.Log(status);
+        UIManager._instance.UpdateStatus(status);
+    }
 
     public void ShowHarvest(string plantName, int harvestAmount, int seedAmount, Vector2 position)
     {

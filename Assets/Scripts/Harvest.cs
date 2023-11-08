@@ -21,7 +21,8 @@ public class Harvest : MonoBehaviour
     {
         // Assignment 2
         // Call the harvester to harvest this element
-
+        Harvester._instance.CollectHarvest(plantName, System.DateTime.Now.ToShortDateString(), _harvestAmount);
+        //
         Destroy(gameObject);
     }
 }

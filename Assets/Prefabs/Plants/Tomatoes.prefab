@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2945813657048144929}
   - component: {fileID: 1842740702562276335}
   m_Layer: 6
-  m_Name: Beans
+  m_Name: Tomatoes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 012380ee262f2488aadaf7e690177fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _plantType: {fileID: 11400000, guid: e7d445d0317dd7949baeb983dba89d28, type: 2}
+  _plantType: {fileID: 11400000, guid: c625b8795cfdcb145b432d00327d1dc5, type: 2}
 --- !u!1 &654515047971042084
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +203,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -518513826, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
+  m_Sprite: {fileID: -264393958, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -287,7 +287,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1846774322, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
+  m_Sprite: {fileID: 1197926415, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -371,7 +371,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1031277733, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
+  m_Sprite: {fileID: -1417116490, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -455,7 +455,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1417114163, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
+  m_Sprite: {fileID: 1612681433, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -539,7 +539,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -164474328, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
+  m_Sprite: {fileID: 42082718, guid: 7f281e9bdcc9c5a45a8d06ee7342723d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
